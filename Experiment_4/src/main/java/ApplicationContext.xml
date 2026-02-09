@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+   
+   <!-- Bean for Constructor Dependency Injection -->
+   <bean id ="student1" class ="Workbook.Experiment_4.Student">
+   <constructor-arg value ="32676" type ="int"/> 
+   <constructor-arg value ="Kumar priyanshu" type ="String"/> 
+   <constructor-arg value ="CSE" type ="String"/> 
+   <constructor-arg value ="2" type ="int"/> 
+   </bean>
+   
+   <!-- Bean for Setter Dependency Injection -->
+   <bean id ="student2" class ="Workbook.Experiment_4.Student">
+   <property name="id" value ="32677"/>
+   <property name="name" value ="Aditya"/>
+   <property name="course" value ="CSE"/>
+   <property name="year" value ="2"/>
+   </bean>
+   
+   </beans>
+   
