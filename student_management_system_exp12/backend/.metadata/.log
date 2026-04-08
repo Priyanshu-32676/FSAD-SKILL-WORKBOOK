@@ -1,0 +1,1413 @@
+!SESSION 2026-04-06 11:36:58.535 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-06 11:37:05.683
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-06 11:37:45.652
+!MESSAGE Logback config file: D:\Desktop\student_management_system_exp12\backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-06 11:37:46.537
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-06 11:37:46.537
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-06 11:37:47.194
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-06 11:37:47.195
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-06 11:37:57.775
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\npriy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:37:59.918
+!MESSAGE Ignored property with key: null value: null
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.302
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.303
+!MESSAGE Could not send USER event 'Anonymous ID: 125c0db7-b006-4b49-b166-21d7e70d9b6d': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.305
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.305
+!MESSAGE Could not send STARTUP event 'startup': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.306
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.307
+!MESSAGE Could not send USER event 'Anonymous ID: 125c0db7-b006-4b49-b166-21d7e70d9b6d': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.308
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.309
+!MESSAGE Could not send ACTION event 'installed': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.310
+!MESSAGE Ignored property with key: null value: null
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.312
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.312
+!MESSAGE Could not send USER event 'Anonymous ID: 125c0db7-b006-4b49-b166-21d7e70d9b6d': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.313
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.314
+!MESSAGE Could not send STARTUP event 'startup': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.315
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.315
+!MESSAGE Could not send USER event 'Anonymous ID: 125c0db7-b006-4b49-b166-21d7e70d9b6d': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.316
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-04-06 11:38:00.317
+!MESSAGE Could not send ACTION event 'showOnStartup': no analytics instance present.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:41.487
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:41.489
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:41.490
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:41.491
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:43.582
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:43.583
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:43.584
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:43.585
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:45.361
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:45.362
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:45.362
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 11:59:45.363
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:02.668
+!MESSAGE 12:00:02.667 [Simple-Language-Server main thread] INFO  o.s.i.v.b.a.BootVersionValidationConfig - Started Boot Version reconciler
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:02.908
+!MESSAGE 12:00:02.907 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.BootJavaLanguageServerComponents - update live process tracker settings - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:02.914
+!MESSAGE 12:00:02.913 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:02.916
+!MESSAGE 12:00:02.915 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:02.988
+!MESSAGE 12:00:02.987 [pool-6-thread-1] INFO  o.s.i.v.b.j.u.SpringFactoriesIndexer - scan factories files for symbols for project: backend - no. of files: 0
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:03.033
+!MESSAGE 12:00:03.033 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files for symbols for project: backend - no. of files: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:03.520
+!MESSAGE 12:00:03.519 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Env var https_proxy: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:05.411
+!MESSAGE 12:00:05.410 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Env var https_proxy: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:00:05.412
+!MESSAGE 12:00:05.410 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Proxy URL from env: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:43.624
+!MESSAGE 12:00:20.843 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files done, number of symbols created: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:52.045
+!MESSAGE 12:01:43.842 [Reconciler-1] INFO  o.s.i.v.b.m.SpringPropertiesIndexManager - Indexed 686 properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:52.383
+!MESSAGE 12:01:52.382 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 6
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:52.706
+!MESSAGE 12:01:52.544 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:53.057
+!MESSAGE 12:01:53.056 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 10
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:53.229
+!MESSAGE 12:01:53.228 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 11
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:53.425
+!MESSAGE 12:01:53.424 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:53.630
+!MESSAGE 12:01:53.628 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 13
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:53.874
+!MESSAGE 12:01:53.873 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 14
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:57.081
+!MESSAGE 12:01:54.745 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:01:58.062
+!MESSAGE 12:01:58.059 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 24
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-04-06 12:03:46.555
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1429)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:15.407
+!MESSAGE 12:01:58.798 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:04:15.614
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:04:15.615
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:04:15.617
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:04:15.618
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:16.174
+!MESSAGE 12:04:15.659 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Desktop/student_management_system_exp12/backend/backend/target/classes/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:16.179
+!MESSAGE 12:04:16.177 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:16.295
+!MESSAGE 12:04:16.216 [pool-3-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:16.298
+!MESSAGE 12:04:16.296 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:16.679
+!MESSAGE 12:04:16.297 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:16.681
+!MESSAGE 12:04:16.680 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:16.689
+!MESSAGE 12:04:16.688 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:34.886
+!MESSAGE 12:04:16.694 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:35.210
+!MESSAGE 12:04:35.209 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:35.214
+!MESSAGE 12:04:35.213 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:37.826
+!MESSAGE 12:04:37.825 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 3
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:38.008
+!MESSAGE 12:04:38.007 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:38.026
+!MESSAGE 12:04:38.025 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:38.340
+!MESSAGE 12:04:38.336 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.236
+!MESSAGE 12:04:49.235 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 5
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.240
+!MESSAGE 12:04:49.239 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.242
+!MESSAGE 12:04:49.241 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 8
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.245
+!MESSAGE 12:04:49.243 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 9
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.249
+!MESSAGE 12:04:49.247 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 11
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.252
+!MESSAGE 12:04:49.250 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.254
+!MESSAGE 12:04:49.253 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.256
+!MESSAGE 12:04:49.255 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 15
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.258
+!MESSAGE 12:04:49.257 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 16
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.261
+!MESSAGE 12:04:49.259 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 17
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.263
+!MESSAGE 12:04:49.262 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 19
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.454
+!MESSAGE 12:04:49.453 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.767
+!MESSAGE 12:04:49.511 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:49.768
+!MESSAGE 12:04:49.512 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:53.391
+!MESSAGE 12:04:53.390 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:53.406
+!MESSAGE 12:04:53.406 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:04:53.852
+!MESSAGE 12:04:53.412 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:35.276
+!MESSAGE 12:05:35.274 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:05:52.760
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:05:52.762
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:05:52.763
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:05:52.763
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:52.804
+!MESSAGE 12:05:52.603 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:52.952
+!MESSAGE 12:05:52.951 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:52.961
+!MESSAGE 12:05:52.960 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:53.017
+!MESSAGE 12:05:53.017 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:53.329
+!MESSAGE 12:05:53.121 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:53.330
+!MESSAGE 12:05:53.121 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:53.354
+!MESSAGE 12:05:53.353 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:05:53.466
+!MESSAGE 12:05:53.362 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:03.645
+!MESSAGE 12:06:03.644 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:03.646
+!MESSAGE 12:06:03.646 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:04.070
+!MESSAGE 12:06:03.699 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:04.081
+!MESSAGE 12:06:04.081 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:06.291
+!MESSAGE 12:06:06.289 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:09.707
+!MESSAGE 12:06:09.706 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:09.803
+!MESSAGE 12:06:09.802 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:09.836
+!MESSAGE 12:06:09.836 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:10.005
+!MESSAGE 12:06:10.004 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:10.334
+!MESSAGE 12:06:10.183 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:10.350
+!MESSAGE 12:06:10.349 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:10.529
+!MESSAGE 12:06:10.528 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:10.692
+!MESSAGE 12:06:10.690 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:10.854
+!MESSAGE 12:06:10.854 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:11.226
+!MESSAGE 12:06:11.225 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 11
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:11.445
+!MESSAGE 12:06:11.324 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:11.446
+!MESSAGE 12:06:11.357 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:11.962
+!MESSAGE 12:06:11.857 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:06:13.471
+!MESSAGE 12:06:13.433 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.326
+!MESSAGE 12:06:13.760 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.327
+!MESSAGE 12:07:12.291 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.327
+!MESSAGE 12:07:12.292 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.479
+!MESSAGE 12:07:12.477 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.645
+!MESSAGE 12:07:12.644 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.779
+!MESSAGE 12:07:12.779 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.794
+!MESSAGE 12:07:12.793 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:12.811
+!MESSAGE 12:07:12.811 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:13.185
+!MESSAGE 12:07:12.987 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:13.298
+!MESSAGE 12:07:13.296 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:13.310
+!MESSAGE 12:07:13.309 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:13.311
+!MESSAGE 12:07:13.309 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:13.561
+!MESSAGE 12:07:13.560 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:13.804
+!MESSAGE 12:07:13.803 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:13.816
+!MESSAGE 12:07:13.816 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:15.297
+!MESSAGE 12:07:14.073 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:15.515
+!MESSAGE 12:07:15.513 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:17.684
+!MESSAGE 12:07:15.535 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:17.685
+!MESSAGE 12:07:15.817 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:22.233
+!MESSAGE 12:07:22.232 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:22.234
+!MESSAGE 12:07:22.232 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:23.093
+!MESSAGE 12:07:23.090 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:23.712
+!MESSAGE 12:07:23.517 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:23.724
+!MESSAGE 12:07:23.724 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:23.725
+!MESSAGE 12:07:23.724 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:24.023
+!MESSAGE 12:07:24.022 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:24.356
+!MESSAGE 12:07:24.355 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:24.523
+!MESSAGE 12:07:24.509 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:24.523
+!MESSAGE 12:07:24.522 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:25.304
+!MESSAGE 12:07:25.282 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:25.305
+!MESSAGE 12:07:25.303 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:25.798
+!MESSAGE 12:07:25.797 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:25.811
+!MESSAGE 12:07:25.811 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:25.812
+!MESSAGE 12:07:25.811 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:25.814
+!MESSAGE 12:07:25.812 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:26.982
+!MESSAGE 12:07:26.301 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:27.222
+!MESSAGE 12:07:27.221 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:27.229
+!MESSAGE 12:07:27.228 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:27.264
+!MESSAGE 12:07:27.262 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:27.393
+!MESSAGE 12:07:27.392 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:31.430
+!MESSAGE 12:07:30.972 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:31.431
+!MESSAGE 12:07:30.987 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:31.432
+!MESSAGE 12:07:30.987 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:31.432
+!MESSAGE 12:07:30.987 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:31.432
+!MESSAGE 12:07:31.430 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:36.965
+!MESSAGE 12:07:36.964 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:36.969
+!MESSAGE 12:07:36.969 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:37.067
+!MESSAGE 12:07:36.970 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:37.068
+!MESSAGE 12:07:37.063 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:37.121
+!MESSAGE 12:07:37.120 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 35
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:37.370
+!MESSAGE 12:07:37.272 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:37.444
+!MESSAGE 12:07:37.444 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:37.540
+!MESSAGE 12:07:37.539 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:37.979
+!MESSAGE 12:07:37.978 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:38.748
+!MESSAGE 12:07:38.051 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:38.749
+!MESSAGE 12:07:38.747 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:39.245
+!MESSAGE 12:07:38.755 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:39.498
+!MESSAGE 12:07:39.267 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:40.162
+!MESSAGE 12:07:40.161 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:40.676
+!MESSAGE 12:07:40.181 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:40.696
+!MESSAGE 12:07:40.695 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:40.976
+!MESSAGE 12:07:40.975 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.168
+!MESSAGE 12:07:41.167 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.186
+!MESSAGE 12:07:41.178 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.187
+!MESSAGE 12:07:41.178 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.187
+!MESSAGE 12:07:41.178 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.188
+!MESSAGE 12:07:41.178 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.188
+!MESSAGE 12:07:41.178 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.704
+!MESSAGE 12:07:41.695 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.720
+!MESSAGE 12:07:41.718 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.906
+!MESSAGE 12:07:41.724 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:41.908
+!MESSAGE 12:07:41.905 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:42.229
+!MESSAGE 12:07:42.228 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:48.036
+!MESSAGE 12:07:42.421 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:51.923
+!MESSAGE 12:07:48.165 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:51.923
+!MESSAGE 12:07:48.165 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:51.924
+!MESSAGE 12:07:51.909 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:52.438
+!MESSAGE 12:07:52.193 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:07:52.439
+!MESSAGE 12:07:52.438 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:35.588
+!MESSAGE 12:08:35.586 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:35.588
+!MESSAGE 12:08:35.587 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.459
+!MESSAGE 12:08:42.316 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:08:42.483
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:08:42.484
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:08:42.485
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:08:42.485
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.672
+!MESSAGE 12:08:42.672 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.726
+!MESSAGE 12:08:42.725 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.727
+!MESSAGE 12:08:42.725 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.727
+!MESSAGE 12:08:42.725 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.727
+!MESSAGE 12:08:42.725 [pool-3-thread-11] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.728
+!MESSAGE 12:08:42.725 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.728
+!MESSAGE 12:08:42.725 [pool-3-thread-11] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.729
+!MESSAGE 12:08:42.725 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.820
+!MESSAGE 12:08:42.819 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:42.821
+!MESSAGE 12:08:42.820 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:43.053
+!MESSAGE 12:08:43.036 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:43.054
+!MESSAGE 12:08:43.052 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:45.115
+!MESSAGE 12:08:45.114 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:45.119
+!MESSAGE 12:08:45.118 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:08:45.120
+!MESSAGE 12:08:45.118 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:08.072
+!MESSAGE 12:09:08.070 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:08.093
+!MESSAGE 12:09:08.092 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.581
+!MESSAGE 12:09:08.512 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.582
+!MESSAGE 12:09:13.562 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.592
+!MESSAGE 12:09:13.590 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.595
+!MESSAGE 12:09:13.594 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java done in 32ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.600
+!MESSAGE 12:09:13.599 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.630
+!MESSAGE 12:09:13.627 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.656
+!MESSAGE 12:09:13.655 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.746
+!MESSAGE 12:09:13.684 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.931
+!MESSAGE 12:09:13.775 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:13.931
+!MESSAGE 12:09:13.930 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:14.456
+!MESSAGE 12:09:14.029 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:14.475
+!MESSAGE 12:09:14.474 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:14.685
+!MESSAGE 12:09:14.508 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 19
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:14.923
+!MESSAGE 12:09:14.911 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:14.930
+!MESSAGE 12:09:14.930 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:14.932
+!MESSAGE 12:09:14.931 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:15.476
+!MESSAGE 12:09:15.464 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:15.758
+!MESSAGE 12:09:15.757 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:15.759
+!MESSAGE 12:09:15.757 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:16.073
+!MESSAGE 12:09:16.061 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:16.074
+!MESSAGE 12:09:16.073 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:16.300
+!MESSAGE 12:09:16.299 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 24
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:16.576
+!MESSAGE 12:09:16.575 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:16.586
+!MESSAGE 12:09:16.583 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:16.668
+!MESSAGE 12:09:16.667 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:17.103
+!MESSAGE 12:09:17.102 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:17.125
+!MESSAGE 12:09:17.104 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:17.602
+!MESSAGE 12:09:17.601 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:17.605
+!MESSAGE 12:09:17.605 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:17.609
+!MESSAGE 12:09:17.608 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:17.813
+!MESSAGE 12:09:17.813 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:18.156
+!MESSAGE 12:09:18.088 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:18.168
+!MESSAGE 12:09:18.167 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:18.591
+!MESSAGE 12:09:18.589 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:18.592
+!MESSAGE 12:09:18.589 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:22.691
+!MESSAGE 12:09:22.600 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:22.691
+!MESSAGE 12:09:22.608 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:23.025
+!MESSAGE 12:09:23.024 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 41
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:23.087
+!MESSAGE 12:09:23.056 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:23.116
+!MESSAGE 12:09:23.116 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:23.694
+!MESSAGE 12:09:23.158 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:24.205
+!MESSAGE 12:09:24.205 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:24.225
+!MESSAGE 12:09:24.224 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:25.581
+!MESSAGE 12:09:25.440 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:26.345
+!MESSAGE 12:09:25.596 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:26.935
+!MESSAGE 12:09:26.934 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 51
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:27.340
+!MESSAGE 12:09:27.322 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:27.357
+!MESSAGE 12:09:27.352 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:27.359
+!MESSAGE 12:09:27.358 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:27.879
+!MESSAGE 12:09:27.878 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:27.906
+!MESSAGE 12:09:27.905 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:27.906
+!MESSAGE 12:09:27.905 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:57.383
+!MESSAGE 12:09:28.029 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:09:57.384
+!MESSAGE 12:09:28.031 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:22.297
+!MESSAGE 12:10:22.162 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:10:22.317
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:10:22.318
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:10:22.319
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:10:22.319
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:22.499
+!MESSAGE 12:10:22.351 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file created event: [file:///D:/Desktop/student_management_system_exp12/backend/backend/target/classes/exp_12/controller/StudentController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:22.508
+!MESSAGE 12:10:22.508 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:22.549
+!MESSAGE 12:10:22.549 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:22.875
+!MESSAGE 12:10:22.662 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:23.001
+!MESSAGE 12:10:22.889 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:47.596
+!MESSAGE 12:10:47.596 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:47.945
+!MESSAGE 12:10:47.944 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:48.668
+!MESSAGE 12:10:48.667 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:48.669
+!MESSAGE 12:10:48.667 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:56.850
+!MESSAGE 12:10:56.823 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:56.921
+!MESSAGE 12:10:56.852 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:56.922
+!MESSAGE 12:10:56.866 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:56.980
+!MESSAGE 12:10:56.979 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 6
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.009
+!MESSAGE 12:10:57.009 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.070
+!MESSAGE 12:10:57.040 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.100
+!MESSAGE 12:10:57.100 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.401
+!MESSAGE 12:10:57.400 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.401
+!MESSAGE 12:10:57.400 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.401
+!MESSAGE 12:10:57.400 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.491
+!MESSAGE 12:10:57.490 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 18
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:57.933
+!MESSAGE 12:10:57.931 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:58.139
+!MESSAGE 12:10:57.948 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:58.492
+!MESSAGE 12:10:58.490 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:59.218
+!MESSAGE 12:10:59.217 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:59.418
+!MESSAGE 12:10:59.393 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:59.419
+!MESSAGE 12:10:59.418 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:59.588
+!MESSAGE 12:10:59.587 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:59.923
+!MESSAGE 12:10:59.923 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:10:59.924
+!MESSAGE 12:10:59.923 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:00.253
+!MESSAGE 12:10:59.940 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:00.454
+!MESSAGE 12:11:00.449 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:00.606
+!MESSAGE 12:11:00.605 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:00.814
+!MESSAGE 12:11:00.813 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 27
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:01.007
+!MESSAGE 12:11:01.007 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:01.008
+!MESSAGE 12:11:01.007 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:01.317
+!MESSAGE 12:11:01.317 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:04.830
+!MESSAGE 12:11:01.319 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.446
+!MESSAGE 12:11:07.445 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.486
+!MESSAGE 12:11:07.485 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.487
+!MESSAGE 12:11:07.485 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.490
+!MESSAGE 12:11:07.489 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.495
+!MESSAGE 12:11:07.494 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.496
+!MESSAGE 12:11:07.494 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.555
+!MESSAGE 12:11:07.554 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 29
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.585
+!MESSAGE 12:11:07.585 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 30
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.586
+!MESSAGE 12:11:07.586 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.615
+!MESSAGE 12:11:07.614 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.775
+!MESSAGE 12:11:07.646 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.791
+!MESSAGE 12:11:07.790 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.792
+!MESSAGE 12:11:07.790 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:07.854
+!MESSAGE 12:11:07.854 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 36
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.042
+!MESSAGE 12:11:08.041 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 37
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.196
+!MESSAGE 12:11:08.194 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.336
+!MESSAGE 12:11:08.330 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.353
+!MESSAGE 12:11:08.352 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.824
+!MESSAGE 12:11:08.520 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.839
+!MESSAGE 12:11:08.838 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.840
+!MESSAGE 12:11:08.838 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:08.855
+!MESSAGE 12:11:08.854 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 42
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:09.015
+!MESSAGE 12:11:09.014 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:09.356
+!MESSAGE 12:11:09.339 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:09.656
+!MESSAGE 12:11:09.654 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 46
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:09.870
+!MESSAGE 12:11:09.870 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:09.887
+!MESSAGE 12:11:09.886 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:10.158
+!MESSAGE 12:11:10.157 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:10.530
+!MESSAGE 12:11:10.162 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:11.064
+!MESSAGE 12:11:10.773 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 48
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:11.087
+!MESSAGE 12:11:11.086 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:11.404
+!MESSAGE 12:11:11.403 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 50
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:11.606
+!MESSAGE 12:11:11.606 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:11.687
+!MESSAGE 12:11:11.686 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 51
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:12.132
+!MESSAGE 12:11:12.131 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:12.146
+!MESSAGE 12:11:12.145 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:12.146
+!MESSAGE 12:11:12.145 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:11:14.703
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:11:14.704
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:11:14.705
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:11:14.706
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:14.725
+!MESSAGE 12:11:14.448 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:14.736
+!MESSAGE 12:11:14.735 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Desktop/student_management_system_exp12/backend/backend/target/classes/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:14.852
+!MESSAGE 12:11:14.851 [ForkJoinPool.commonPool-worker-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/Desktop/student_management_system_exp12/backend/backend
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:15.276
+!MESSAGE 12:11:15.274 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:11:15.348
+!MESSAGE 12:11:15.340 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-06 12:11:58.496
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:12:01.914
+!MESSAGE 12:11:56.998 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:12:01.914
+!MESSAGE 12:11:57.497 [pool-3-thread-12] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:12:01.915
+!MESSAGE 12:12:01.913 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:12:39.879
+!MESSAGE 12:12:25.496 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:12:39.879
+!MESSAGE 12:12:39.878 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:12:39.880
+!MESSAGE 12:12:39.878 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:13:23.101
+!MESSAGE 12:13:23.100 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:13:23.110
+!MESSAGE 12:13:23.101 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:13:24.986
+!MESSAGE 12:13:24.985 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:13:25.009
+!MESSAGE 12:13:25.008 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:13:59.525
+!MESSAGE 12:13:59.524 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:13:59.528
+!MESSAGE 12:13:59.527 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:14:01.874
+!MESSAGE 12:14:01.859 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:14:45.117
+!MESSAGE 12:14:44.928 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:14:45.118
+!MESSAGE 12:14:45.116 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:28.793
+!MESSAGE 12:14:45.440 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:30.323
+!MESSAGE 12:15:30.322 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 31
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:30.641
+!MESSAGE 12:15:30.640 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:31.008
+!MESSAGE 12:15:31.006 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:31.264
+!MESSAGE 12:15:31.263 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:31.467
+!MESSAGE 12:15:31.465 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:33.709
+!MESSAGE 12:15:33.068 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:33.903
+!MESSAGE 12:15:33.903 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:36.207
+!MESSAGE 12:15:36.206 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 43
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:38.118
+!MESSAGE 12:15:37.876 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:38.929
+!MESSAGE 12:15:38.928 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 47
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:38.930
+!MESSAGE 12:15:38.928 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-04-06 12:15:42.061
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1429)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:43.311
+!MESSAGE 12:15:42.240 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-04-06 12:15:46.599
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1429)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-04-06 12:15:47.944
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1429)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:51.047
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:51.047
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:51.048
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:51.048
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:55.633
+!MESSAGE 12:15:51.080 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/resources/application.properties, file:///D:/Desktop/student_management_system_exp12/backend/backend/target/classes/application.properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:55.649
+!MESSAGE 12:15:55.648 [pool-5-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:55.649
+!MESSAGE 12:15:55.648 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:57.367
+!MESSAGE 12:15:57.357 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - doc save event: file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:57.569
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:57.569
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:57.570
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:15:57.571
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:57.606
+!MESSAGE 12:15:57.602 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Desktop/student_management_system_exp12/backend/backend/target/classes/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:57.707
+!MESSAGE 12:15:57.706 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:57.759
+!MESSAGE 12:15:57.758 [pool-5-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:15:57.760
+!MESSAGE 12:15:57.759 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:17.324
+!MESSAGE 12:16:17.323 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:17.333
+!MESSAGE 12:16:17.325 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:17.335
+!MESSAGE 12:16:17.325 [pool-5-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:17.351
+!MESSAGE 12:16:17.351 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:17.357
+!MESSAGE 12:16:17.356 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:17.536
+!MESSAGE 12:16:17.535 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:32.599
+!MESSAGE 12:16:32.594 [pool-3-thread-16] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:32.630
+!MESSAGE 12:16:32.615 [pool-3-thread-16] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:32.631
+!MESSAGE 12:16:32.631 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:16:32.743
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:16:32.744
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:16:32.744
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-06 12:16:32.745
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:32.882
+!MESSAGE 12:16:32.777 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Desktop/student_management_system_exp12/backend/backend/target/classes/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:33.307
+!MESSAGE 12:16:33.181 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [D:\Desktop\student_management_system_exp12\backend\backend\src\main\java\exp_12\repository\StudentRepository.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:33.310
+!MESSAGE 12:16:33.309 [pool-5-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:16:33.410
+!MESSAGE 12:16:33.367 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:28:40.771
+!MESSAGE 12:28:34.619 [pool-3-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/BackendApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:28:40.791
+!MESSAGE 12:28:40.790 [pool-5-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/controller/StudentController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:28:46.239
+!MESSAGE 12:28:46.238 [pool-3-thread-18] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:28:46.253
+!MESSAGE 12:28:46.246 [pool-3-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:29:48.859
+!MESSAGE 12:29:48.858 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:30:35.283
+!MESSAGE 12:29:48.878 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:30:35.284
+!MESSAGE 12:29:48.878 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/model/Student.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:30:43.604
+!MESSAGE 12:30:38.119 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:30:43.605
+!MESSAGE 12:30:38.130 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:30:43.605
+!MESSAGE 12:30:42.349 [pool-3-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:30:43.605
+!MESSAGE 12:30:43.588 [pool-3-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:28.250
+!MESSAGE 12:30:43.982 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:28.250
+!MESSAGE 12:31:28.249 [pool-3-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:28.283
+!MESSAGE 12:31:28.283 [pool-3-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/service/StudentService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:30.968
+!MESSAGE 12:31:30.968 [pool-3-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:30.984
+!MESSAGE 12:31:30.984 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:30.985
+!MESSAGE 12:31:30.984 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:30.985
+!MESSAGE 12:31:30.984 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:31:30.985
+!MESSAGE 12:31:30.984 [pool-3-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:37:08.303
+!MESSAGE 12:37:08.274 [pool-3-thread-23] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-06 12:37:08.303
+!MESSAGE 12:37:08.301 [pool-3-thread-22] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Desktop/student_management_system_exp12/backend/backend/src/main/java/exp_12/repository/StudentRepository.java
